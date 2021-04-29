@@ -1,0 +1,36 @@
+- name: jMetalPy
+  year: 2019
+  last_use: 2021
+  implem:
+    - Python
+  fitness:
+    - energy
+  url:
+    - https://github.com/jMetal/jMetalPy
+  uses:
+    - Browlee:2021:GI
+
+- name: C-CMAES
+  year: 2014
+  last_use: 2021
+  implem:
+    - C
+  fitness:
+    - quality
+  url:
+    - https://github.com/CMA-ES/c-cmaes
+  uses:
+    - Langdon:TELO
+    - langdon:2019:GI7
+    - langdon:RN1805
+    - Langdon:2018:SSBSE
+
+- name: ECJ
+  implem:
+    - Java
+  fitness:
+    - quality
+  url:
+    - https://cs.gmu.edu/~eclab/projects/ecj/
+  uses:
+    - Kinneer:2018:SEAMS

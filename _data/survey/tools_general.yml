@@ -1,0 +1,279 @@
+- name: APIARTY
+  year: 2021
+  last_use: 2021
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - repair
+  url:
+    - https://solar.cs.ucl.ac.uk/APIARTy/
+  uses:
+    - Kechagia:TSE
+
+- name: Arja
+  year: 2017
+  last_use: 2017
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - repair
+  url: https://github.com/yyxhdy/arja
+
+- name: Arja-e
+  year: 2019
+  last_use: 2020
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - repair
+  url: https://github.com/yyxhdy/arja/tree/arja-e
+  uses:
+    - Yuan:2020:TBE
+    - Yuan:2019:GECCO
+
+- name: ASTOR
+  year: 2014
+  last_use: 2018
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - repair
+  url: https://github.com/SpoonLabs/astor
+  uses:
+    - Naitou:2018:ICSE
+
+- name: Avatar
+  year: 2019
+  last_use: 2019
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - repair
+  url: https://github.com/SerVal-DTF/AVATAR
+  uses:
+    - Kui_liu:thesis
+    - Liu:2019:SANER
+
+- name: Droix
+  year: 2018
+  last_use: 2018
+  targets:
+    - Android
+  fitness:
+    - repair
+  url: https://droix2017.github.io/
+  uses:
+    - Dong:2020:Symmetry
+
+- name:  DTSFix
+  year: 2020
+  last_use: 2020
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - repair
+  uses:
+    - Dong:2020:Symmetry
+
+- name: GCE
+  year: 2017
+  last_use: 2020
+  implem:
+  targets:
+    - Truffle
+  fitness:
+    - time
+  uses:
+    - heuristicLab_GCE_2020
+    - Kraus:2017:ManLang
+    - Kraus:2017:SPLASHcomp
+
+- name: GEVO
+  year: 2020
+  last_use: 2020
+  implem:
+    - C
+    - CUDA
+  targets:
+    - GPGPU
+  fitness:
+    - quality
+    - time
+  url: https://github.com/lioujheyu/gevo
+  uses:
+    - Liou:2020:TACO
+    - Liou:2020:GECCOComp
+    - Liou:2019:GI
+
+- name: Gin
+  year: 2019
+  last_use: 2021
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - repair
+    - time
+  url: https://github.com/gintool/gin
+  uses:
+    - bian:2021:apr_icse
+    - Guizzo:2021:ICSE
+    - Brownlee:2020:CEC
+    - Lim:2020:SSBSE:RENE
+    - Brownlee:2019:GECCO
+
+- name: GISMOE
+  year: 2015
+  last_use: 2020
+  implem:
+    - C++
+  targets:
+    - C++
+  fitness:
+    - time
+  url: http://www0.cs.ucl.ac.uk/staff/W.Langdon/gismo/
+  uses:
+    - langdon:2020:cec
+    - langdon:2019:EuroGP
+    - Lopez-Lopez:2019:SC
+    - Lopez-Lopez:2018:GI5
+    - langdon:2018:EuroGP
+    - Langdon:2017:BDM
+    - langdon:RN1708
+    - Petke:2017:ieeeTSE
+    - Langdon:2017:GI
+    - Langdon:2016:GPEM
+    - langdon:2015:gi_pknots
+    - langdon:2014:EuroGP
+    - Petke:2014:EuroGP
+    - Langdon:2014:GECCO
+    - Langdon:2013:ieeeTEC
+    - Petke:2013:SSBSE
+
+- name: JavaScriptHeuristicOptmizer
+  year: 2018
+  last_use: 2018
+  implem:
+    - Javascript
+  targets:
+    - Javascript
+  fitness:
+    - time
+  url: https://github.com/ffarzat/JavaScriptHeuristicOptmizer
+  uses:
+    - deAlmeidaFarzat:2018:JSERD
+
+- name: L2S
+  year: 2018
+  last_use: 2018
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - repair
+  uses:
+    - Xiong:2018:GI
+
+- name: PyGGI
+  year: 2017
+  last_use: 2021
+  implem:
+    - Python
+  targets:
+    - Python
+    - XML
+    - text
+  fitness:
+    - repair
+    - quality
+    - time
+  url: https://github.com/coinse/pyggi
+  uses:
+    - Kitt:2021:GI
+    - Mesecan:2021:GI
+    - Smigielska:2021:GI
+    - Blot:2020:EuroGP
+    - an:2019:fse
+    - An:2018:GI
+
+- name: NOPOL
+  year: 2014
+  last_use: 2018
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - repair
+  url: https://github.com/SpoonLabs/nopol
+  uses:
+    - Naitou:2018:ICSE
+
+- name: SapFix
+  year: 2018
+  last_use: 2019
+  fitness:
+    - repair
+  uses:
+    - Marginean:2019:ICSE
+    - Jia:2018:SapFix
+
+- name: Sapienz
+  year: 2018
+  last_use: 2018
+  fitness:
+    - repair
+  uses:
+    - Jia:2018:SapFix
+    - Alshahwan:2018:SSBSE
+
+- name: sharpFix
+  year: 2019
+  last_use: 2019
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - repair
+  uses:
+    - Xin:2019:GI
+
+- name: ssFix
+  year: 2017
+  last_use: 2017
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - repair
+  url: https://github.com/qixin5/ssFix
+  uses:
+
+- name: TBar
+  year: 2019
+  last_use: 2019
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - repair
+  url: https://github.com/SerVal-DTF/TBar
+  uses:
+    - Kui_liu:thesis

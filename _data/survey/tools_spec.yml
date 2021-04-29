@@ -1,0 +1,102 @@
+- name: Artemis
+  year: 2018
+  last_use: 2018
+  targets: Java
+  fitness:
+    - memory
+  url: 
+  uses:
+    - Basios:2018:FSE
+
+- name: Checkers
+  year: 2020
+  last_use: 2020
+  implem:
+  targets:
+  fitness:
+    - other
+  url: 
+  uses:
+    - Dash:2020:GI
+
+- name: EvoSpex
+  year: 2021
+  last_use: 2021
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - other
+  url: https://sites.google.com/view/evospex
+  uses:
+
+- name: GAssert
+  year: 2020
+  last_use: 2020
+  implem:
+  targets:
+    - Java
+  fitness:
+    - other
+  url: https://github.com/valerio-terragni/gassert
+  uses:
+    - terragni-fse-2020
+
+- name: NetSynth
+  year: 2018
+  last_use: 2018
+  fitness:
+    - other
+  uses:
+    - Roohitavaf:2018:GI5
+
+- name: NLP2TestableCode
+  year: 2020
+  last_use: 2020
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - other
+  url: https://github.com/Brittany-Reid/nlp2testablecode
+  uses:
+    - Reid:2020:GI9
+
+- name: PolyFunic
+  year: 2018
+  leat_use: 2018
+  implem:
+    - Scala
+  targets:
+    - Scala
+  url: https://github.com/JerrySwan/PolyFunic-pub
+  uses:
+    - PolyfinicJAR
+
+- name: Rosita
+  year: 2021
+  last_use: 2021
+  implem:
+    - C
+  targets:
+    - C
+  fitness:
+    - other
+  url: https://github.com/0xADE1A1DE/Rosita
+  uses:
+    - Shelton:2021:NDSS
+
+- name: Sosiefier
+  year: 2019
+  last_use: 2019
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - other
+  url: https://github.com/DIVERSIFY-project/sosiefier
+  uses:
+    - Harrand:GPEM
