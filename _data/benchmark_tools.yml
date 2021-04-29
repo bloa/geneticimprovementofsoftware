@@ -1,0 +1,190 @@
+- name: PyGGI
+  year: 2017
+  last_use: 2021
+  implem:
+    - Python
+  targets:
+    - Python
+    - XML
+    - text
+  fitness:
+    - repair
+    - quality
+    - time
+  url: https://github.com/coinse/pyggi
+  uses:
+    - Kitt:2021:GI
+    - Mesecan:2021:GI
+    - Smigielska:2021:GI
+    - Blot:2020:EuroGP
+    - an:2019:fse
+
+- name: GIN
+  year: 2019
+  last_use: 2021
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - repair
+    - time
+  url: https://github.com/gintool/gin
+  uses:
+    - bian:2021:apr_icse
+    - Guizzo:2021:ICSE
+    - Brownlee:2020:CEC
+    - Lim:2020:SSBSE:RENE
+
+- name: EvoSpex
+  year: 2021
+  last_use: 2021
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - other
+  url: https://sites.google.com/view/evospex
+  uses:
+
+- name: Rosita
+  year: 2021
+  last_use: 2021
+  implem:
+    - C
+  targets:
+    - C
+  fitness:
+    - other
+  url: https://github.com/0xADE1A1DE/Rosita
+  uses:
+    - Shelton:2021:NDSS
+
+- name: Arja-e
+  year: 2020
+  last_use: 2020
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - repair
+  url: https://github.com/yyxhdy/arja/tree/arja-e
+  uses:
+    - Yuan:2020:TBE
+
+- name: GISMOE
+  year: 2015
+  last_use: 2020
+  implem:
+    - C++
+  targets:
+    - C++
+  fitness:
+    - time
+  url: http://www0.cs.ucl.ac.uk/staff/W.Langdon/gismo/
+  uses:
+    - langdon:2020:cec
+
+- name: GAssert
+  year: 2020
+  last_use: 2020
+  implem:
+  targets:
+    - Java
+  fitness:
+    - other
+  url: https://github.com/valerio-terragni/gassert
+  uses:
+    - terragni-fse-2020
+
+- name: Genetic Compiler Optimization Environment
+  year: 2017
+  last_use: 2020
+  implem:
+  targets:
+    - Truffle
+  fitness:
+    - time
+  url: 
+  uses:
+    - heuristicLab_GCE_2020
+    - Kraus:2017:ManLang
+    - Kraus:2017:SPLASHcomp
+
+- name: GEVO
+  year: 2020
+  last_use: 2020
+  implem:
+  targets:
+    - GPGPU
+  fitness:
+    - quality
+    - time
+  url: 
+  uses:
+    - Liou:2020:TACO
+    - Liou:2020:GECCOComp
+
+- name: NLP2TestableCode
+  year: 2020
+  last_use: 2020
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - other
+  url: https://github.com/Brittany-Reid/nlp2testablecode
+  uses:
+    - Reid:2020:GI9
+
+- name: Checkers
+  year: 2020
+  last_use: 2020
+  implem:
+  targets:
+  fitness:
+    - other
+  url: 
+  uses:
+    - Dash:2020:GI
+
+- name: Avatar
+  year: 2019
+  last_use: 2019
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - repair
+  url: https://github.com/SerVal-DTF/AVATAR
+  uses:
+    - Kui_liu:thesis
+
+- name: TBar
+  year: 2019
+  last_use: 2019
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - repair
+  url: https://github.com/SerVal-DTF/TBar
+  uses:
+    - Kui_liu:thesis
+
+- name: Arja
+  year: 2017
+  last_use: 2017
+  implem:
+    - Java
+  targets:
+    - Java
+  fitness:
+    - repair
+  url: https://github.com/yyxhdy/arja
+  uses:

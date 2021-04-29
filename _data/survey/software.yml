@@ -1,0 +1,863 @@
+- name: 7zip
+  language:
+    - C
+    - C++
+  fitness:
+    - energy
+    - quality
+  collection:
+    - PARSEC
+  uses:
+    - Bruce:TSE
+
+- name: Acra
+  language:
+    - Java
+  fitness:
+    - quality
+    - time
+  uses:
+    - Nader-Palacio:2018:GI
+
+- name: AES cypher
+  language:
+    - C
+  fitness:
+    - energy
+  uses:
+    - Shelton:2021:NDSS
+
+- name: Apache
+  language:
+    - Java
+  fitness:
+    - repair
+  uses:
+    - Xuan:2018:GI5
+
+- name: Apache Accumulo
+  language:
+    - Java
+  fitness:
+    - repair
+  collection:
+    - Bugs.jar
+  uses:
+    - Xin:2019:GI
+
+- name: Apache Camel
+  language:
+    - Java
+  fitness:
+    - repair
+  collection:
+    - Bugs.jar
+  uses:
+    - Xin:2019:GI
+
+- name: Apache Commons
+  language:
+    - Java
+  tags:
+    - library
+  fitness:
+    - quality
+    - repair
+    - time
+  collection:
+    - Bugs.jar
+    - Defect4J
+  urls:
+    - http://commons.apache.org/
+  uses:
+    - Guizzo:2021:ICSE
+    - Yuan:2020:TBE
+    - Dziurzanski:2020:CEC
+    - terragni-fse-2020
+    - Dong:2020:Symmetry
+    - Kui_liu:thesis
+    - Liu:2019:SANER
+    - Liu:2019:ISSTA
+    - Xin:2019:GI
+    - Harand:GPEM
+    - Nader-Palacio:2018:GI
+    - Xiong:2018:GI
+    - Choi:2018:SSBSE
+
+- name: Apache Flink
+  language:
+    - Java
+  fitness:
+    - repair
+  collection:
+    - Bugs.jar
+  uses:
+    - Xin:2019:GI
+
+- name: Apache Jackrabbit Oak
+  language:
+    - Java
+  fitness:
+    - repair
+  collection:
+    - Bugs.jar
+  uses:
+    - Xin:2019:GI
+
+- name: Apache Logging Log4J
+  language:
+    - Java
+  fitness:
+    - repair
+  collection:
+    - Bugs.jar
+  uses:
+    - Dong:2020:Symmetry
+
+- name: Apache Maven
+  language:
+    - Java
+  fitness:
+    - repair
+  collection:
+    - Bugs.jar
+  uses:
+    - Xin:2019:GI
+
+- name: Apache Wicket
+  language:
+    - Java
+  fitness:
+    - repair
+  collection:
+    - Bugs.jar
+  uses:
+    - Xin:2019:GI
+
+- name: Beagle Puppy
+  language:
+    - C++
+  fitness:
+    - quality
+    - time
+  uses:
+    - Lopez-Lopez:2019:SC
+
+- name: Blue
+  language:
+    - C
+  fitness:
+    - time
+  urls: http://www0.cs.ucl.ac.uk/staff/W.Langdon/gggp/
+  uses:
+    - langdon:RN1806
+
+- name: Bodytrack
+  language:
+    - C++
+  fitness:
+    - energy
+    - quality
+  collection:
+    - PARSEC
+  uses:
+    - Bruce:TSE
+
+- name: Busybox
+  fitness:
+    - repair
+  uses:
+    - Xuan:2018:GI5
+
+- name: cglib
+  language:
+    - Java
+  tags:
+    - library
+  fitness:
+    - memory
+    - time
+  urls:
+    - https://github.com/cglib/cglib
+  uses:
+    - Basios:2018:FSE
+
+- name: Chacha cypher
+  language:
+    - C
+  fitness:
+    - energy
+  uses:
+    - Shelton:2021:NDSS
+
+- name: Closure Compiler
+  language:
+    - Java
+  fitness:
+    - repair
+  collection:
+    - Defect4J
+  urls:
+    - https://developers.google.com/closure/compiler
+  uses:
+    - Kui_liu:thesis
+    - Liu:2019:SANER
+    - Liu:2019:ISSTA
+    - Xin:2019:GI
+    - Choi:2018:SSBSE
+
+- name: DAIDALUS
+  language:
+    - C++
+    - Java
+  tags:
+    - library
+  fitness:
+    - size
+  urls:
+    - https://github.com/nasa/daidalus
+  uses:
+    - emse19
+
+- name: Ferret
+  language:
+    - C
+    - C++
+  fitness:
+    - energy
+    - quality
+  collection:
+    - PARSEC
+  uses:
+    - Bruce:TSE
+
+- name: GA
+  tags:
+    - algo
+  fitness:
+    - quality
+    - time
+  urls:
+    - Moyasebu:2020:GI9
+
+- name: glibc
+  language:
+    - C
+  fitness:
+    - quality
+  uses:
+    - langdon:TELO:HOP
+    - krauss:2020:EuroGP
+    - langdon:2020:GI9
+    - langdon:2019:log2
+    - langdon:2019:GI7
+    - langdon:RN1805
+    - langdon:2018:SSBSE
+
+- name: GMAT
+  language:
+    - C
+    - C++
+  tags:
+    - library
+  fitness:
+    - size
+  urls:
+    - https://software.nasa.gov/software/GSC-17177-1
+  uses:
+    - emse19
+
+- name: GMP
+  language:
+    - C
+  tags:
+    - library
+  fitness:
+    - repair
+  uses:
+    - Mehne:2018:ICST
+
+- name: GPQuick
+  language:
+    - C++
+  tags:
+    - algo
+  fitness:
+    - time
+  urls:
+    - langdon:2020:cec
+
+- name: GraphicsMagick
+  language:
+    - C
+  tags:
+    - image
+  fitness:
+    - time
+  urls:
+    - http://www.graphicsmagick.org/
+  uses:
+    - petke:2017:ieeeTSE
+
+- name: GraphJet
+  language:
+    - Java
+  tags:
+    - library
+  fitness:
+    - memory
+    - time
+  urls:
+    - https://github.com/twitter/GraphJet
+  uses:
+    - Basios:2018:FSE
+
+- name: GSON
+  language:
+    - Java
+  tags:
+    - library
+  fitness:
+    - repair
+    - time
+  collection:
+    - Defect4J
+  urls:
+    - https://github.com/google/gson
+  uses:
+    - Harand:GPEM
+    - Petke:2019:SSBSE
+    - Basios:2018:FSE
+
+- name: Guava
+  language:
+    - Java
+  tags:
+    - library
+  fitness:
+    - repair
+  urls:
+    - https://github.com/google/guava
+  uses:
+    - terragni-fse-2020
+
+- name: Gzip
+  language:
+    - C
+  fitness:
+    - repair
+  uses:
+    - Mehne:2018:ICST
+
+- name: http-java-client
+  language:
+    - Java
+  tags:
+    - library
+  fitness:
+    - memory
+    - time
+  urls:
+    - https://github.com/googleapis/google-http-java-client
+  uses:
+    - Basios:2018:FSE
+
+- name: ImageMagick
+  language:
+    - C
+  tags:
+    - image
+  fitness:
+    - time
+  urls:
+    - https://imagemagick.org/index.php
+  uses:
+    - petke:2017:ieeeTSE
+
+- name: Jackson
+  language:
+    - Java
+  tags:
+    - library
+  fitness:
+    - repair
+  collection:
+    - Defect4J
+  urls:
+    - https://www.baeldung.com/jackson
+
+- name: jCodec
+  language:
+    - Java
+  tags:
+    - library
+  fitness:
+    - repair
+  uses:
+    - Brownlee:2020:CEC
+
+- name: JFreeChart
+  language:
+    - Java
+  fitness:
+    - quality
+    - repair
+    - time
+  collection:
+    - Defect4J
+  urls:
+    - https://www.jfree.org/jfreechart/
+  uses:
+    - Yuan:2020:TBE
+    - Dziurzanski:2020:CEC
+    - Dong:2020:Symmetry
+    - Kui_liu:thesis
+    - Liu:2019:SANER
+    - Liu:2019:ISSTA
+    - Xin:2019:GI
+    - Nader-Palacio:2018:GI
+    - Choi:2018:SSBSE
+
+- name: jGit
+  language:
+    - Java
+  tags:
+    - library
+  fitness:
+    - repair
+  urls:
+    - https://www.eclipse.org/jgit/
+  uses:
+    - Harand:GPEM
+
+- name: jimfs
+  language:
+    - Java
+  tags:
+    - library
+  fitness:
+    - memory
+    - time
+  urls:
+    - https://github.com/google/jimfs
+  uses:
+    - Basios:2018:FSE
+
+- name: Joda
+  language:
+    - Java
+  tags:
+    - library
+  fitness:
+    - repair
+  collection:
+    - Defect4J
+  urls:
+    - https://www.joda.org/
+  uses:
+    - Yuan:2020:TBE
+    - Dziurzanski:2020:CEC
+    - Kui_liu:thesis
+    - Liu:2019:SANER
+    - Liu:2019:ISSTA
+    - Xin:2019:GI
+    - Xiong:2018:GI
+    - Basios:2018:FSE
+    - Choi:2018:SSBSE
+
+- name: jOOL
+  language:
+    - Java
+  tags:
+    - library
+  fitness:
+    - memory
+    - time
+  urls:
+    - https://github.com/jOOQ/jOOL
+  uses:
+    - Basios:2018:FSE
+
+- name: jsoup
+  language:
+    - Java
+  tags:
+    - library
+  fitness:
+    - repair
+  collection:
+    - Defect4J
+  urls:
+    - https://jsoup.org/
+
+- name: JTS Topology Suite
+  language:
+    - Java
+  tags:
+    - library
+  fitness:
+    - repair
+  urls:
+    - https://github.com/locationtech/jts
+  uses:
+    - terragni-fse-2020
+
+- name: libtiff
+  language:
+    - C
+  tags:
+    - library
+  fitness:
+    - repair
+  uses:
+    - Mehne:2018:ICST
+
+- name: lighttpd
+  language:
+    - C
+  fitness:
+    - repair
+  uses:
+    - Mehne:2018:ICST
+
+- name: Linux
+  fitness:
+    - repair
+  uses:
+    - Xuan:2018:GI5
+
+- name: LPG
+  language:
+    - C
+  tags:
+    - algo
+  fitness:
+    - time
+  collection:
+    - AClib
+  urls:
+    - https://lpg.unibs.it/lpg/
+
+- name: MiniSAT
+  language:
+    - C++
+  tags:
+    - SAT
+  fitness:
+    - time
+  collection:
+    - AClib
+  urls:
+    - http://minisat.se/
+  uses:
+    - blot:2021:tevc
+    - Blot:2020:EuroGP
+    - an:2019:fse
+    - Petke:2017:ieeeTSE
+
+- name: MOEA/D
+  language:
+    - C++
+  tags:
+    - algo
+  fitness:
+    - time
+  uses:
+    - blot:2021:tevc
+
+- name: Mockito
+  language:
+    - Java
+  tags:
+    - library
+  fitness:
+    - repair
+  collection:
+    - Defect4J
+  urls:
+    - https://site.mockito.org/
+  uses:
+    - Kui_liu:thesis
+    - Liu:2019:SANER
+    - Liu:2019:ISSTA
+    - Choi:2018:SSBSE
+
+- name: NSGA-II
+  language:
+    - C++
+  tags:
+    - algo
+  fitness:
+    - time
+  uses:
+    - blot:2021:tevc
+
+- name: OMXPlayer
+  language:
+    - C++
+  fitness:
+    - energy
+    - quality
+  collection:
+    - PARSEC
+  uses:
+    - Bruce:TSE
+
+- name: OptiPNG
+  language:
+    - C
+  tags:
+    - image
+  fitness:
+    - time
+  urls:
+    - http://optipng.sourceforge.net/
+  uses:
+    - blot:2021:tevc
+
+- name: PHP
+  language:
+    - C
+  fitness:
+    - repair
+  uses:
+    - Mehne:2018:ICST
+
+- name: Python
+  language:
+    - C
+  tags:
+    - library
+  fitness:
+    - repair
+  uses:
+    - Mehne:2018:ICST
+
+- name: Rebound
+  language:
+    - Java
+  tags:
+    - library
+    - android
+  fitness:
+    - energy
+    - memory
+    - time
+  urls:
+    - https://github.com/facebookarchive/rebound
+  uses:
+    - Bokhari:2020:GECCO
+    - Bokhari:2020:GI9
+    - Bokhari:2019:GI7
+
+- name: REX
+  language:
+    - Dana
+  fitness:
+    - other
+  uses:
+    - Porter:2018:GI
+
+- name: RNAfold
+  language:
+    - C
+  fitness:
+    - quality
+  urls:
+    - https://www.tbi.univie.ac.at/RNA/
+  uses:
+    - langdon:2019:EuroGP
+    - langdon:2019:ieeeblog
+    - langdon:2018:EuroGP
+
+- name: Roassal3
+  language:
+    - Pharo
+  fitness:
+    - repair
+  urls:
+    - https://github.com/ObjectProfile/Roassal3
+  uses:
+    - Illanes:2021:GI
+
+- name: Sat4J
+  language:
+    - Java
+  tags:
+    - SAT
+  fitness:
+    - time
+  collection:
+    - AClib
+  urls:
+    - https://www.sat4j.org/
+  uses:
+    - blot:2021:tevc
+
+- name: scikit-learn
+  language:
+    - Python
+  tags:
+    - ML
+  fitness:
+    - energy
+    - quality
+  urls:
+    - https://scikit-learn.org/
+  uses:
+    - Brownlee:2021:GI
+
+- name: sh
+  language:
+    - Python
+  fitness:
+    - repair
+  urls:
+    - https://github.com/amoffat/sh
+  uses:
+    - An:2018:GI
+
+- name: SLAMBench
+  language:
+    - C++
+  fitness:
+    - quality
+  urls:
+    - http://apt.cs.manchester.ac.uk/projects/PAMELA/tools/SLAMBench/index.html
+  uses:
+    - Lopez-Lopez:2018:GI5
+
+- name: solo (dead)
+  language:
+    - Java
+  fitness:
+    - memory
+    - time
+  urls:
+    - https://github.com/b3log/solo
+  uses:
+    - Basios:2018:FSE
+
+
+- name: Sort algorithms (Gin)
+  language:
+    - Java
+  fitness:
+    - repair
+  urls:
+    - https://github.com/gintool/gin/tree/master/examples
+  uses:
+    - Lim:2020:SSBSE:RENE
+
+- name: SOTorrent
+  urls:
+    - https://empirical-software.engineering/sotorrent/
+  uses:
+    - Baltes:2020:GI9
+
+- name: spark
+  language:
+    - Java
+  tags:
+    - library
+  fitness:
+    - repair
+  uses:
+    - Brownlee:2020:CEC
+
+- name: spatial4j
+  language:
+    - Java
+  tags:
+    - library
+  fitness:
+    - repair
+  uses:
+    - Brownlee:2020:CEC
+
+- name: ThunderSVM
+  language:
+    - C++, CUDA
+  fitness:
+    - quality
+    - time
+  urls:
+    - https://github.com/Xtra-Computing/thundersvm
+  uses:
+    - Liou:2019:GI
+
+- name: TCAS
+  language:
+    - C
+  fitness:
+    - repair
+  collection:
+    - SIR
+  uses:
+    - Veerapen:2018:GPEM
+
+- name: Triangle
+  language:
+    - C
+    - Fortran
+    - Java
+    - Python
+  tags:
+    - toy
+  fitness:
+    - time
+    - repair
+  uses:
+    - Kitt:2021:GI
+    - Lim:2020:SSBSE:RENE
+    - cacm2019_program_repair
+    - Veerapen:2018:GPEM
+
+- name: Weka
+  language:
+    - Java
+  tags:
+    - ML
+  fitness:
+    - energy
+    - quality
+    - time
+  urls:
+    - https://www.cs.waikato.ac.nz/ml/weka/
+  uses:
+    - Browlee:2017:ieeeETCI
+
+- name: Wireshark
+  language:
+    - C
+  fitness:
+    - repair
+  uses:
+    - Mehne:2018:ICST
+
+- name: Xoodoo cypher
+  language:
+    - C
+  fitness:
+    - energy
+  uses:
+    - Shelton:2021:NDSS
+
+- name: ZZZZZZZ
+  language:
+    - C
+    - C++
+    - Java
+    - Javascript
+  fitness:
+    - repair
+    - size
+  tags:
+    - Android
+  uses:
+    - emse19
+    - Basios:2018:FSE
+    - Xuan:2018:GI5
+    - Tan:2018:ICSE
+    - Schulte:2018:BAR
+    - eAlmeidaFarzat:2018:JSERD

@@ -1,0 +1,244 @@
+- name: AClib
+  language:
+    - C
+    - C++
+    - Java
+  fitness:
+    - quality
+    - time
+  url:
+    - http://aclib.net/
+
+- name: APIRepBench
+  language:
+    - Java
+  fitness:
+    - repair
+  url: https://github.com/SOLAR-group/APIARTy
+  uses:
+    - Kechagia:TSE
+
+- name: Bears
+  language:
+    - Java
+  fitness:
+    - repair
+  url:
+    - https://bears-bugs.github.io/bears-benchmark
+
+- name: BugsInPy
+  language:
+    - Python
+  fitness:
+    - repair
+  url:
+    - https://github.com/soarsmu/BugsInPy
+
+- name: BugsJS
+  language:
+    - JavaScript
+  fitness:
+    - repair
+  url:
+    - https://bugsjs.github.io/
+
+- name: BugSwarm
+  language:
+    - Java
+    - Python
+  fitness:
+    - repair
+  url:
+    - http://www.bugswarm.org/
+
+- name: Bugs.jar
+  language:
+    - Java
+  fitness:
+    - repair
+  url:
+    - https://github.com/bugs-dot-jar/bugs-dot-jar
+  uses:
+    - Xin:2019:GI
+
+- name: Codeflaws
+  language:
+    - C
+  type:
+    - toy
+  fitness:
+    - repair
+  url:
+    - https://codeflaws.github.io/
+
+- name: CoREBench
+  language:
+    - C
+  type:
+    - open-source
+  tag:
+    - unix
+  fitness:
+    - repair
+  url:
+    - https://www.comp.nus.edu.sg/~release/corebench/
+
+- name: DaCapo
+  language:
+    - Java
+  type:
+    - open-source
+  fitness:
+    - memory
+    - time
+  url:
+    - http://dacapobench.org/
+
+- name: DBGBench
+  language:
+    - C
+  type:
+    - open-source
+  tag:
+    - unix
+  fitness:
+    - repair
+  url:
+    - https://dbgbench.github.io/
+
+- name: Defects4J
+  language:
+    - Java
+  type:
+    - open-source
+    - library
+  fitness:
+    - repair
+  url:
+    - https://github.com/rjust/defects4j
+  uses:
+    - Yuan:2020:TBE
+    - Dong:2020:Symmetry
+    - Yuan:2019:GECCO
+    - Xin:2019:GI
+    - Ding:2019:GI
+    - Liu:2019:SANER
+    - Choi:2018:SSBSE
+
+- name: Defexts
+  language:
+    - Kotlin
+    - Groovy
+    - Scala
+  fitness:
+    - repair
+  url:
+    - https://github.com/ProdigyXable/defexts
+
+- name: DroixBench
+  tag:
+    - Android
+  fitness:
+    - repair
+  url:
+    - https://droix2017.github.io/
+  uses:
+    - Tan:2018:ICSE
+
+- name: IntroClass
+  language:
+    - C
+    - Java
+  type:
+    - toy
+  fitness:
+    - repair
+  url:
+    - https://repairbenchmarks.cs.umass.edu/
+  uses:
+    - Ding:2019:GI
+    - oliveira:2018:ESE
+
+- name: NAS Parallel Benchmarks
+  language:
+    - C
+  fitness:
+    - time
+  url:
+    - https://www.nas.nasa.gov/publications/npb.html
+  uses:
+    - Bruce:RN1804
+
+- name: ManyBugs
+  language:
+    - C
+  type:
+    - open-source
+  fitness:
+    - repair
+  url:
+    - https://repairbenchmarks.cs.umass.edu/
+  uses:
+    - Trujillo:2021:IEEESoftware
+    - oliveira:2018:ESE
+
+- name: PARSEC
+  language:
+    - C
+  type:
+    - open-source
+  fitness:
+    - energy
+    - quality
+  url:
+    - https://parsec.cs.princeton.edu/
+  uses: Bruce:TSE
+
+- name: QuixBugs
+  language:
+    - Java
+    - Python
+  type:
+    - toy
+  fitness:
+    - repair
+  url:
+    - https://github.com/jkoppel/QuixBugs
+  ref:
+    - bian:2021:apr_icse
+    - Smigielska:2021:GI
+    - an:2019:fse
+
+- name: Refactory
+  language:
+    - Python
+  type:
+    - toy
+  fitness:
+    - repair
+  url:
+    - https://github.com/githubhuyang/refactory
+
+- name: Rodinia
+  language:
+    - CUDA
+    - OCL
+    - OMP
+  fitness:
+    - time
+  urls:
+    - http://www.cs.virginia.edu/rodinia
+    - https://github.com/yuhc/gpu-rodinia
+  uses:
+    - Liou:2020:TACO
+    - Liou:2020:GECCOComp
+    - Liou:2019:GI
+
+- name: SIR
+  language:
+    - C
+    - C#
+    - C++
+    - Java
+  urls:
+    - https://sir.csc.ncsu.edu/php/previewfiles.php

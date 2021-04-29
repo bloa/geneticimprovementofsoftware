@@ -1,0 +1,185 @@
+- name: AProVE
+  tags:
+    - SAT
+  urls:
+    - https://www.dcs.bbk.ac.uk/~carsten/
+  uses:
+    - Petke:2017:ieeeTSE
+
+- name: a9a
+  type:
+    - real-world
+  tags:
+    - ML
+  url:
+    - https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/
+  uses:
+    - Liou:2019:GI
+
+- name: Combinatorial Interaction Testing
+  tags:
+    - SAT
+  uses:
+    - Blot:2020:EuroGP
+    - an:2019:fse
+    - Petke:2017:ieeeTSE
+
+- name: Diabetes
+  type:
+    - real-world
+  tags:
+    - ML
+  collection:
+    - UCI
+  urls:
+    - https://archive.ics.uci.edu/ml/datasets/diabetes
+  uses:
+    - Brownlee:2021:GI
+    - Brownlee:2017:ETCI
+
+- name: Ensemble Computation
+  tags:
+    - SAT
+  url:
+    - https://www.cs.helsinki.fi/u/jazkorho/sat2012/
+  uses:
+    - Petke:2017:ieeeTSE
+
+- name: Everyday personal photographs
+  type:
+    - real-world
+  tags:
+    - image
+  uses:
+    - blot:2021:tevc
+    - Petke:2017:ieeeTSE
+
+- name: Galaxies
+  type:
+    - real-world
+  tags:
+    - image
+  urls:
+    - https://noirlab.edu/public/images/archive/category/galaxies/
+  uses:
+    - blot:2021:tevc
+    - Petke:2017:ieeeTSE
+
+- name: Geometric shapes
+  type:
+    - crafted
+    - toy
+  tags:
+    - image
+  uses:
+    - blot:2021:tevc
+    - Petke:2017:ieeeTSE
+
+- name: Glass Classification
+  type:
+    - real-world
+  tags:
+    - ML
+  collection:
+    - UCI
+  urls:
+    - http://archive.ics.uci.edu/ml/datasets/Glass+Identification
+  uses:
+    - Brownlee:2021:GI
+    - Brownlee:2017:ieeeETCI
+
+- name: Iris
+  type:
+    - real-world
+  tags:
+    - ML
+  collection:
+    - UCI
+  urls:
+    - http://archive.ics.uci.edu/ml/datasets/Iris
+  uses:
+    - Brownlee:2021:GI
+    - Brownlee:2017:ieeeETCI
+
+- name: Ionosphere
+  type:
+    - real-world
+  tags:
+    - ML
+  collection:
+    - UCI
+  urls:
+    - http://archive.ics.uci.edu/ml/datasets/Ionosphere
+  uses:
+    - Brownlee:2021:GI
+    - Brownlee:2017:ieeeETCI
+
+- name: Labelled Faces In The wild
+  type:
+    - real-world
+  tags:
+    - image
+  urls:
+    - http://vis-www.cs.umass.edu/lfw/
+  uses:
+    - blot:2021:tevc
+    - Petke:2017:ieeeTSE
+
+- name: Mortgage loan approval
+  type:
+    - real-world
+  tags:
+    - ML
+  url:
+    - https://www.kaggle.com/dinu1763/mortgage-loan-approval
+  uses:
+    - Brownlee:2021:GI
+
+- name: MNIST
+  type:
+    - real-world
+  tags:
+    - ML
+  url:
+    - https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/
+  uses:
+    - Liou:2019:GI
+
+- name: OpenAI Gym
+  type:
+    - toy
+  tags:
+    - ML
+  url:
+    - https://gym.openai.com/
+  uses:
+    - coreyes2021evolving
+
+- name: Pasadena Houses 2000
+  type:
+    - real-world
+  tags:
+    - image
+  urls:
+    - http://www.vision.caltech.edu/archive.html
+  uses:
+    - blot:2021:tevc
+    - Petke:2017:ieeeTSE
+
+- name: Phase-transition random 3-SAT
+  tags:
+    - SAT
+  urls:
+    - https://www.cs.ubc.ca/~hoos/SATLIB/benchm.html
+  uses:
+    - blot:2021:tevc
+
+- name: TSPLIB
+  tags:
+    - TSP
+  urls:
+    - http://elib.zib.de/pub/mp-testdata/tsp/tsplib/tsplib.html
+  uses:
+    - Moyasebi:2020:GI9
+
+
