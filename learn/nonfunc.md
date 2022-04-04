@@ -139,7 +139,7 @@ function force(s) {
 
 var query = (new URLSearchParams(window.location.search)).get("q");
 if (query) {
-  force('id='+query)
+  force(query)
 }
 
 $('.hid3').toggle();
