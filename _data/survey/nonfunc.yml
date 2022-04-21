@@ -336,7 +336,7 @@
   source:
     - IEEE (energy)
     - IEEE (memory)
-  year: 2017
+  year: 2018
   venue: IEEE TPDS
   venue_type:
     - Journal
@@ -919,9 +919,9 @@
   source:
     - Google (memory)
   year: 2010
-  venue: ACM SIGPLAN Notices
+  venue: PLDI
   venue_type:
-    - Journal
+    - Conference
   fitness:
     - Time
   fitness_secondary:
@@ -1599,7 +1599,7 @@
     - https://ieeexplore.ieee.org/document/9470950/
   source:
     - IEEE (time)
-  year: 2021
+  year: 2022
   venue: IEEE TPDS
   venue_type:
     - Journal
@@ -5536,9 +5536,9 @@
   source:
     - Manual
   year: 2005
-  venue: ACM SIGPLAN Notices
+  venue: OOPSLA
   venue_type:
-    - Journal
+    - Conference
   fitness:
     - Other
   fitness_secondary:
@@ -6667,9 +6667,9 @@
   source:
     - Google (memory)
   year: 1998
-  venue: ACM SIGOPS
+  venue: ASPLOS
   venue_type:
-    - Journal
+    - Conference
   fitness:
     - Time
   fitness_secondary:
@@ -8124,7 +8124,7 @@
     - https://ieeexplore.ieee.org/document/8046100/
   source:
     - IEEE (other)
-  year: 2017
+  year: 2018
   venue: IEEE TPDS
   venue_type:
     - Journal
@@ -12474,7 +12474,7 @@
   venue_type:
     - Workshop
   fitness:
-    - Size
+    - Time
   fitness_secondary:
   fitness_multi: 
   tool_name:
@@ -12648,9 +12648,9 @@
   source:
     - Google (memory)
   year: 1992
-  venue: ACM SIGMETRICS
+  venue: SIGMETRICS
   venue_type:
-    - Journal
+    - Conference
   fitness:
     - Time
     - Memory
@@ -12691,9 +12691,9 @@
   source:
     - Scopus (other)
   year: 2009
-  venue: SIGPLAN
+  venue: OOPSLA
   venue_type:
-    - Journal
+    - Conference
   fitness:
     - Time
   fitness_secondary:
@@ -14298,9 +14298,9 @@
   source:
     - Google (other)
   year: 2008
-  venue: ACM Sigplan
+  venue: PLDI
   venue_type:
-    - Journal
+    - Conference
   fitness:
     - Time
   fitness_secondary:
@@ -14489,7 +14489,7 @@
   source:
     - Manual
   year: 1979
-  venue: SIGPLAN
+  venue: CC
   venue_type:
     - Conference
   fitness:
@@ -14583,9 +14583,9 @@
     - Scopus (memory)
     - Scopus (other)
   year: 2002
-  venue: SIGPLAN Notices
+  venue: PLDI
   venue_type:
-    - Journal
+    - Conference
   fitness:
     - Time
     - Size
@@ -14764,9 +14764,9 @@
   source:
     - Manual
   year: 1984
-  venue: ACM SIGMETRICS
+  venue: SIGMETRICS
   venue_type:
-    - Journal
+    - Conference
   fitness:
     - Time
   fitness_secondary:
@@ -16284,7 +16284,7 @@
     - https://ieeexplore.ieee.org/document/9430597/
   source:
     - IEEE (other)
-  year: 2021
+  year: 2022
   venue: IEEE TR
   venue_type:
     - Journal
@@ -17657,7 +17657,7 @@
     - IEEE (other)
     - IEEE (quality)
     - IEEE (time)
-  year: 2021
+  year: 2022
   venue: IEEE TSE
   venue_type:
     - Journal
@@ -17778,7 +17778,7 @@
     - https://ieeexplore.ieee.org/document/9453130/
   source:
     - IEEE (other)
-  year: 2021
+  year: 2022
   venue: IEEE TMC
   venue_type:
     - Journal
