@@ -745,7 +745,7 @@
   year: 2004
   venue: SCOPES
   venue_type:
-    - Conference
+    - Workshop
   fitness:
     - Time
     - Size
@@ -790,7 +790,7 @@
     - IEEE (quality)
     - Scopus (memory)
   year: 2009
-  venue: HCPP
+  venue: HPCC
   venue_type:
     - Conference
   fitness:
@@ -1018,7 +1018,7 @@
     - IEEE (other)
     - IEEE (time)
   year: 2019
-  venue: CCGRID
+  venue: CCGrid
   venue_type:
     - Conference
   fitness:
@@ -1424,8 +1424,8 @@
     - https://ieeexplore.ieee.org/document/840008/
   source:
     - IEEE (memory)
-  year: 2008
-  venue: OOPSLA
+  year: 2000
+  venue: DATE
   venue_type:
     - Conference
   fitness:
@@ -2127,7 +2127,7 @@
   source:
     - IEEE (memory)
   year: 2010
-  venue: HIPC
+  venue: HiPC
   venue_type:
     - Conference
   fitness:
@@ -3755,7 +3755,7 @@
     - https://dl.acm.org/doi/10.1145/2851613.2851773
   source:
     - ACM (memory)
-  year: 2013
+  year: 2016
   venue: SAC
   venue_type:
     - Conference
@@ -4116,7 +4116,7 @@
   source:
     - IEEE (time)
   year: 1999
-  venue: IPPS
+  venue: IPPS/SPDP
   venue_type:
     - Conference
   fitness:
@@ -4404,7 +4404,7 @@
     - ACM (quality)
     - ACM (time)
   year: 2016
-  venue: ARRAY
+  venue: PLDI
   venue_type:
     - Workshop
   fitness:
@@ -4524,7 +4524,7 @@
   source:
     - ACM (time)
   year: 2018
-  venue: PARMA-DITAM
+  venue: HiPEAC
   venue_type:
     - Workshop
   fitness:
@@ -4653,7 +4653,7 @@
   url:
   source:
     - Scopus (energy)
-  year: 2020
+  year: 2019
   venue: PPAM
   venue_type:
     - Conference
@@ -5174,7 +5174,7 @@
     - Scopus (other)
     - Manual
   year: 2019
-  venue: FEAST
+  venue: CCS
   venue_type:
     - Workshop
   fitness:
@@ -5387,7 +5387,7 @@
     - ACM (other)
     - Scopus (other)
   year: 2019
-  venue: FEAST
+  venue: CCS
   venue_type:
     - Workshop
   fitness:
@@ -5887,7 +5887,7 @@
   source:
     - Manual
   year: 2019
-  venue: FEAST
+  venue: CCS
   venue_type:
     - Workshop
   fitness:
@@ -6081,7 +6081,7 @@
     - ACM (quality)
     - ACM (time)
   year: 2010
-  venue: INTERACT
+  venue: ASPLOS
   venue_type:
     - Workshop
   fitness:
@@ -6237,9 +6237,9 @@
   source:
     - Manual
   year: 2021
-  venue: JPCS
+  venue: ICAPM
   venue_type:
-    - Journal
+    - Conference
   fitness:
     - Time
   fitness_secondary:
@@ -6276,7 +6276,7 @@
     - Scopus (energy)
     - Scopus (other)
   year: 1998
-  venue: IPPS
+  venue: IPPS/SPDP
   venue_type:
     - Conference
   fitness:
@@ -6422,7 +6422,7 @@
   source:
     - Scopus (other)
   year: 2001
-  venue: OM
+  venue: PLDI
   venue_type:
     - Workshop
   fitness:
@@ -7300,7 +7300,7 @@
   source:
     - IEEE (time)
   year: 2009
-  venue: PCCC
+  venue: IPCCC
   venue_type:
     - Conference
   fitness:
@@ -7713,7 +7713,7 @@
     - Scopus (energy)
     - Scopus (quality)
   year: 2020
-  venue: QuASoQ
+  venue: APSEC
   venue_type:
     - Workshop
   fitness:
@@ -8305,7 +8305,7 @@
     - Scopus (energy)
     - Manual
   year: 2015
-  venue: GPGPU
+  venue: PPOPP
   venue_type:
     - Workshop
   fitness:
@@ -8492,7 +8492,7 @@
     - IEEE (quality)
     - IEEE (time)
   year: 2000
-  venue: VLSI
+  venue: VLSID
   venue_type:
     - Conference
   fitness:
@@ -8622,7 +8622,7 @@
   source:
     - ACM (memory)
   year: 2015
-  venue: DATES
+  venue: DATE
   venue_type:
     - Conference
   fitness:
@@ -9422,7 +9422,7 @@
     - Scopus (memory)
     - Scopus (quality)
   year: 2015
-  venue: SEPS
+  venue: SPLASH
   venue_type:
     - Workshop
   fitness:
@@ -9616,7 +9616,7 @@
   source:
     - Manual
   year: 2014
-  venue: GPGPU
+  venue: ASPLOS
   venue_type:
     - Workshop
   fitness:
@@ -10815,7 +10815,7 @@
   source:
     - ACM (other)
   year: 2015
-  venue: COSMIC
+  venue: CGO
   venue_type:
     - Workshop
   fitness:
@@ -11194,7 +11194,7 @@
   source:
     - IEEE (energy)
   year: 2015
-  venue: Informatics
+  venue: ISCI
   venue_type:
     - Conference
   fitness:
@@ -11281,7 +11281,7 @@
   source:
     - Scopus (memory)
   year: 2018
-  venue: FSP
+  venue: FPL
   venue_type:
     - Workshop
   fitness:
@@ -11323,7 +11323,7 @@
     - Scopus (energy)
     - Scopus (quality)
   year: 2016
-  venue: IKUM
+  venue: IUKM
   venue_type:
     - Conference
   fitness:
@@ -12064,7 +12064,7 @@
   source:
     - Scopus (other)
   year: 2019
-  venue: CSET
+  venue: USENIX
   venue_type:
     - Workshop
   fitness:
@@ -12731,7 +12731,7 @@
   source:
     - ArXiV (energy)
     - ArXiV (time)
-  year: 2021
+  year: 2020
   venue: ArXiV
   venue_type:
     - Other
@@ -12865,9 +12865,9 @@
   source:
     - Scopus (energy)
   year: 2006
-  venue: INNOVATIONS
+  venue: IIT
   venue_type:
-    - Journal
+    - Conference
   fitness:
     - Energy
     - Time
@@ -12918,7 +12918,7 @@
   year: 2015
   venue: LCPC
   venue_type:
-    - Conference
+    - Workshop
   fitness:
     - Time
   fitness_secondary:
@@ -13577,7 +13577,7 @@
   year: 2021
   venue: ICPE
   venue_type:
-    - Conference
+    - Other
   fitness:
     - Time
   fitness_secondary:
@@ -13778,7 +13778,7 @@
   source:
     - Manual
   year: 2015
-  venue: FSE
+  venue: ESEC/FSE
   venue_type:
     - Workshop
   fitness:
@@ -14134,7 +14134,7 @@
   source:
     - ACM (energy)
     - ACM (quality)
-  year: 2016
+  year: 2017
   venue: MOBILESoft
   venue_type:
     - Conference
@@ -14845,7 +14845,7 @@
   source:
     - Manual
   year: 2019
-  venue: FSE
+  venue: ESEC/FSE
   venue_type:
     - Conference
   fitness:
@@ -15033,7 +15033,7 @@
   source:
     - Scopus (other)
   year: 2019
-  venue: Usenix
+  venue: USENIX
   venue_type:
     - Conference
   fitness:
@@ -15206,7 +15206,7 @@
   source:
     - IEEE (time)
   year: 2005
-  venue: HPCASIA
+  venue: HPC Asia
   venue_type:
     - Conference
   fitness:
@@ -15389,6 +15389,47 @@
     - named
 
 - id: 324
+  title: "Refactoring the FreeBSD Kernel with Checked C"
+  url:
+    - https://ieeexplore.ieee.org/document/9229980
+  source:
+    - Manual
+  year: 2020
+  venue: SecDev
+  venue_type:
+    - Conference
+  fitness:
+    - Other
+  fitness_secondary:
+    - Time
+    - Size
+  fitness_multi: Report
+  tool_name:
+    - unnamed
+  tool_search:
+    - Manual
+  tool_approach:
+    - Semantic
+  software_nb: 1
+  software_name:
+    - FreeBSD kernel
+  software_set_name:
+  software_lang:
+    - C/c++
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unix/linux
+  benchmark_quality:
+    - named
+
+- id: 325
   title: "Remove RATs from your code: automated optimization of resource inefficient database writes for mobile applications"
   url:
     - https://dl.acm.org/doi/10.1145/3213846.3213865
@@ -15430,7 +15471,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 325
+- id: 326
   title: "Removing runtime overhead for optimized object queries"
   url:
     - https://dl.acm.org/doi/10.1145/2847538.2847545
@@ -15479,7 +15520,7 @@
   benchmark_quality:
     - named
 
-- id: 326
+- id: 327
   title: "Restructuring Lisp programs for concurrent execution"
   url:
     - https://dl.acm.org/doi/10.1145/62115.62126
@@ -15518,7 +15559,7 @@
   benchmark_quality:
     - described
 
-- id: 327
+- id: 328
   title: "Reuse, recycle to de-bloat software"
   url:
   source:
@@ -15565,7 +15606,7 @@
     - reused
   doi: https://doi.org/10.1007/978-3-642-22655-7_19
 
-- id: 328
+- id: 329
   title: "Rule-based techniques using abstract syntax tree for code optimization and secure programming in java"
   url:
   source:
@@ -15611,7 +15652,7 @@
     - named
   doi: https://doi.org/10.1007/978-3-319-05939-6_17
 
-- id: 329
+- id: 330
   title: "Runtime parallelization of legacy code on a transactional memory system"
   url:
     - https://dl.acm.org/doi/10.1145/1944862.1944882
@@ -15679,7 +15720,7 @@
   benchmark_quality:
     - reused
 
-- id: 330
+- id: 331
   title: "Safe automated refactoring for intelligent parallelization of Java 8 streams"
   url:
     - https://dl.acm.org/doi/10.1109/GI.2019.00014
@@ -15688,7 +15729,7 @@
   year: 2019
   venue: ICSE
   venue_type:
-    - Workshop
+    - Conference
   fitness:
     - Time
     - Other
@@ -15737,13 +15778,13 @@
     - named
     - reused
 
-- id: 331
+- id: 332
   title: "Scalable runtime bloat detection using abstract dynamic slicing"
   url:
   source:
     - Scopus (other)
   year: 2014
-  venue: ACM TOCEM
+  venue: ACM TOSEM
   venue_type:
     - Journal
   fitness:
@@ -15790,7 +15831,7 @@
     - reused
   doi: https://doi.org/10.1145/2560047
 
-- id: 332
+- id: 333
   title: "Search-Based Energy Optimization of Some Ubiquitous Algorithms"
   url:
     - https://ieeexplore.ieee.org/document/7935484/
@@ -15836,7 +15877,7 @@
     - described
     - named
 
-- id: 333
+- id: 334
   title: "SEEDS: a software engineer&#39;s energy-optimization decision support framework"
   url:
     - https://dl.acm.org/doi/10.1145/2568225.2568297
@@ -15886,7 +15927,7 @@
     - reused
   doi: https://doi.org/10.1145/2568225.2568297
 
-- id: 334
+- id: 335
   title: "Semi-automatic composition of loop transformations for deep parallelism and memory hierarchies"
   url:
   source:
@@ -15942,7 +15983,7 @@
   pdfs:
     - https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/content/pdf/10.1007/s10766-006-0012-3.pdf
 
-- id: 335
+- id: 336
   title: "Separation Logic-Assisted Code Transformations for Efficient High-Level Synthesis"
   url:
     - https://ieeexplore.ieee.org/document/6861573/
@@ -15984,7 +16025,7 @@
   benchmark_quality:
     - described
 
-- id: 336
+- id: 337
   title: "Sequential Model-Based Optimization for General Algorithm Configuration"
   url:
     - https://link.springer.com/chapter/10.1007%2F978-3-642-25566-3_40
@@ -16027,7 +16068,7 @@
   benchmark_quality:
     - named
 
-- id: 337
+- id: 338
   title: "ShadObf: A C-Source Obfuscator Based on Multi-objective Optimisation Algorithms"
   url:
     - https://ieeexplore.ieee.org/document/6650916/
@@ -16067,7 +16108,7 @@
   benchmark_quality:
     - described
 
-- id: 338
+- id: 339
   title: "Shasta: A low overhead, software-only approach for supporting fine-grain shared memory"
   url:
     - https://dl.acm.org/doi/abs/10.1145/237090.237179
@@ -16122,7 +16163,7 @@
   benchmark_quality:
     - reused
 
-- id: 339
+- id: 340
   title: "Simple, effective code-size reduction for functional programs"
   url:
   source:
@@ -16130,7 +16171,7 @@
   year: 2004
   venue: IFL
   venue_type:
-    - Conference
+    - Workshop
   fitness:
     - Size
   fitness_secondary:
@@ -16175,7 +16216,7 @@
     - named
   doi: https://doi.org/10.1007/11431664_13
 
-- id: 340
+- id: 341
   title: "Slimium: Debloating the Chromium Browser with Feature Subsetting"
   url:
     - https://dl.acm.org/doi/10.1145/3372297.3417866
@@ -16217,7 +16258,7 @@
   benchmark_quality:
     - named
 
-- id: 341
+- id: 342
   title: "Slimming javascript applications: An approach for removing unused functions from javascript libraries"
   url:
     - https://www.sciencedirect.com/science/article/pii/S0950584918302210
@@ -16278,7 +16319,7 @@
   benchmark_quality:
     - named
 
-- id: 342
+- id: 343
   title: "SMARTEST: A Surrogate-Assisted Memetic Algorithm for Code Size Reduction"
   url:
     - https://ieeexplore.ieee.org/document/9430597/
@@ -16347,7 +16388,7 @@
   benchmark_quality:
     - reused
 
-- id: 343
+- id: 344
   title: "Software architectural transformations: a new approach to low energy embedded software"
   url:
     - https://ieeexplore.ieee.org/document/1253742/
@@ -16393,7 +16434,7 @@
   benchmark_quality:
     - named
 
-- id: 344
+- id: 345
   title: "Software Pipelining for Quantum Loop Programs"
   url:
     - https://arxiv.org/abs/2012.12700
@@ -16432,7 +16473,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 345
+- id: 346
   title: "Soot: A Java bytecode optimization framework"
   url:
     - https://dl.acm.org/doi/abs/10.1145/1925805.1925818
@@ -16483,7 +16524,7 @@
     - named
     - reused
 
-- id: 346
+- id: 347
   title: "Sound Mixed-Precision Optimization with Rewriting"
   url:
     - https://ieeexplore.ieee.org/document/8443735/
@@ -16540,7 +16581,7 @@
   benchmark_quality:
     - described
 
-- id: 347
+- id: 348
   title: "Source code optimization and profiling of energy consumption in embedded systems"
   url:
     - https://ieeexplore.ieee.org/document/874049
@@ -16581,7 +16622,7 @@
   benchmark_quality:
     - described
 
-- id: 348
+- id: 349
   title: "Source code transformation based on software cost analysis"
   url:
     - https://dl.acm.org/doi/10.1145/500001.500036
@@ -16628,7 +16669,7 @@
     - described
   doi: https://doi.org/10.1145/500001.500036
 
-- id: 349
+- id: 350
   title: "Space-efficient multi-versioning for input-adaptive feedback-driven program optimizations"
   url:
     - https://dl.acm.org/doi/10.1145/2660193.2660229
@@ -16679,13 +16720,13 @@
   benchmark_quality:
     - reused
 
-- id: 350
+- id: 351
   title: "Specialising Software for Different Downstream Applications Using Genetic Improvement and Code Transplantation"
   url:
     - https://ieeexplore.ieee.org/abstract/document/7962212
   source:
     - Manual
-  year: 2017
+  year: 2018
   venue: IEEE TSE
   venue_type:
     - Journal
@@ -16720,12 +16761,12 @@
   benchmark_quality:
     - named
 
-- id: 351
+- id: 352
   title: "Speculative optimizations for interpreting environments"
   url:
   source:
     - Scopus (quality)
-  year: 2013
+  year: 2014
   venue: SPE
   venue_type:
     - Journal
@@ -16787,7 +16828,7 @@
     - reused
   doi: https://doi.org/10.1002/spe.2199
 
-- id: 352
+- id: 353
   title: "Static memory management for efficient mobile sensing applications"
   url:
     - https://dl.acm.org/doi/10.5555/2830865.2830886
@@ -16847,7 +16888,7 @@
     - described
     - named
 
-- id: 353
+- id: 354
   title: "Stochastic energy optimization for mobile GPS applications"
   url:
     - https://dl.acm.org/doi/10.1145/3236024.3236076
@@ -16886,7 +16927,7 @@
   benchmark_quality:
     - named
 
-- id: 354
+- id: 355
   title: "Studying the impact of application-level optimizations on the power consumption of multi-core architectures"
   url:
     - https://dl.acm.org/doi/10.1145/2212908.2212927
@@ -16977,7 +17018,7 @@
     - described
     - reused
 
-- id: 355
+- id: 356
   title: "Subdomain-based generality-aware debloating"
   url:
     - https://dl.acm.org/doi/10.1145/3324884.3416644
@@ -17032,7 +17073,7 @@
     - named
   doi: https://doi.org/10.1145/3324884.3416644
 
-- id: 356
+- id: 357
   title: "Temporal system call specialization for attack surface reduction"
   url:
     - https://www.usenix.org/conference/usenixsecurity20/presentation/ghavamnia
@@ -17076,7 +17117,7 @@
   benchmark_quality:
     - named
 
-- id: 357
+- id: 358
   title: "Test case permutation to improve execution time"
   url:
     - https://ieeexplore.ieee.org/document/7582744/
@@ -17122,7 +17163,7 @@
   benchmark_quality:
     - reused
 
-- id: 358
+- id: 359
   title: "Testing Method of Code Redundancy Simplification Based on Program Dependency Graph"
   url:
     - https://ieeexplore.ieee.org/document/6296219/
@@ -17164,13 +17205,13 @@
     - named
   doi: https://doi.org/10.1109/TrustCom.2012.269
 
-- id: 359
+- id: 360
   title: "The Effectiveness of Low-Precision Floating Arithmetic on Numerical Codes: A Case Study on Power Consumption"
   url:
   source:
     - Scopus (energy)
   year: 2020
-  venue: HPCAsia
+  venue: HPC Asia
   venue_type:
     - Conference
   fitness:
@@ -17203,14 +17244,14 @@
     - named
   doi: https://doi.org/10.1145/3368474.3368492
 
-- id: 360
+- id: 361
   title: "The effect of compiler-flag tuning on SPEC benchmark performance"
   url:
     - https://dl.acm.org/doi/10.1145/190787.190807
   source:
     - Manual
   year: 1994
-  venue: ACM SIGARCH
+  venue: ACM CAN
   venue_type:
     - Journal
   fitness:
@@ -17244,7 +17285,7 @@
   benchmark_quality:
     - reused
 
-- id: 361
+- id: 362
   title: "The effects of compiler optimisations on embedded system power consumption"
   url:
   source:
@@ -17284,13 +17325,13 @@
     - described
   doi: https://doi.org/10.1504/IJICT.2009.026431
 
-- id: 362
+- id: 363
   title: "The influence of the Java collection framework on overall energy consumption"
   url:
   source:
     - Scopus (energy)
   year: 2016
-  venue: GREENS
+  venue: ICSE
   venue_type:
     - Workshop
   fitness:
@@ -17323,7 +17364,7 @@
     - described
   doi: https://doi.org/10.1145/2896967.2896968
 
-- id: 363
+- id: 364
   title: "The semi-automatic parallelisation of scientific application codes using a computer aided parallelisation toolkit"
   url:
   source:
@@ -17368,7 +17409,7 @@
     - reused
   doi: https://doi.org/10.1155/2001/327048
 
-- id: 364
+- id: 365
   title: "The use of predictive models in dynamic treatment planning"
   url:
     - https://ieeexplore.ieee.org/document/8024536
@@ -17407,7 +17448,7 @@
   benchmark_quality:
     - described
 
-- id: 365
+- id: 366
   title: "Tile size selection of affine programs for GPGPUs using polyhedral cross-compilation"
   url:
     - https://dl.acm.org/doi/10.1145/3447818.3460369
@@ -17473,7 +17514,7 @@
   benchmark_quality:
     - reused
 
-- id: 366
+- id: 367
   title: "Tiling Optimizations for 3D Scientific Computations"
   url:
     - https://ieeexplore.ieee.org/document/1592745/
@@ -17519,7 +17560,7 @@
     - described
     - reused
 
-- id: 367
+- id: 368
   title: "Towards program optimization through automated analysis of numerical precision"
   url:
     - https://dl.acm.org/doi/10.1145/1772954.1772987
@@ -17561,16 +17602,16 @@
   benchmark_quality:
     - described
 
-- id: 368
+- id: 369
   title: "Transformations towards clean functional code"
   url:
     - https://dl.acm.org/doi/10.1145/3406085.3409010
   source:
     - Manual
   year: 2020
-  venue: Erlang
+  venue: ICFP
   venue_type:
-    - Conference
+    - Workshop
   fitness:
     - Other
   fitness_secondary:
@@ -17601,7 +17642,7 @@
     - described
     - available
 
-- id: 369
+- id: 370
   title: "Translating Java for resource constrained embedded systems"
   url:
   source:
@@ -17648,7 +17689,7 @@
     - reused
   doi: https://doi.org/10.1109/ReCoSoC.2012.6322868
 
-- id: 370
+- id: 371
   title: "TRIMMER: An Automated System for Configuration-based Software Debloating"
   url:
     - https://ieeexplore.ieee.org/document/9478582/
@@ -17712,7 +17753,7 @@
   benchmark_quality:
     - named
 
-- id: 371
+- id: 372
   title: "Trimmer: Application specialization for code debloating"
   url:
     - https://dl.acm.org/doi/10.1145/3238147.3238160
@@ -17772,7 +17813,7 @@
     - named
   doi: https://doi.org/10.1145/3238147.3238160
 
-- id: 372
+- id: 373
   title: "Trimming Mobile Applications for Bandwidth-Challenged Networks in Developing Regions"
   url:
     - https://ieeexplore.ieee.org/document/9453130/
@@ -17812,7 +17853,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 373
+- id: 374
   title: "Tuning applications for efficient GPU offloading to in-memory processing"
   url:
     - https://dl.acm.org/doi/10.1145/3392717.3392760
@@ -17870,7 +17911,50 @@
     - reused
     - unspecified
 
-- id: 374
+- id: 375
+  title: "Tuning floating-point precision using dynamic program information and temporal locality"
+  url:
+    - https://ieeexplore.ieee.org/document/9355251
+  source:
+    - Manual
+  year: 2020
+  venue: SC
+  venue_type:
+    - Conference
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - unnamed
+  tool_search:
+    - Exploratory
+  tool_approach:
+    - Destructive
+  software_nb: 2
+  software_name:
+    - unnamed
+  software_set_name:
+    - PeleC
+  software_lang:
+    - C/c++
+    - Gpu
+    - Python
+    - Fortran
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - academic
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - named
+
+- id: 376
   title: "Tuning genetic algorithm parameters using design of experiments"
   url:
     - https://dl.acm.org/doi/10.1145/3377929.3398136
@@ -17909,7 +17993,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 375
+- id: 377
   title: "UNIT: Unifying Tensorized Instruction Compilation"
   url:
     - https://arxiv.org/abs/2101.08458
@@ -17949,7 +18033,7 @@
   benchmark_quality:
     - named
 
-- id: 376
+- id: 378
   title: "Using algorithm configuration tools to optimize genetic programming parameters: a case study"
   url:
     - https://dl.acm.org/doi/10.1145/3067695.3076097
@@ -17989,7 +18073,7 @@
   benchmark_quality:
     - named
 
-- id: 377
+- id: 379
   title: "Using an interactive software environment for the parallelization of real-world scientific applications"
   url:
   source:
@@ -18040,7 +18124,7 @@
     - reused
   doi: https://doi.org/10.1080/00207160601169942
 
-- id: 378
+- id: 380
   title: "Using automatic refactoring to improve energy efficiency of android apps"
   url:
     - https://ieeexplore.ieee.org/document/7972807
@@ -18079,7 +18163,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 379
+- id: 381
   title: "Using Genetic Improvement and Code Transplants to Specialise a C++ Program to a Problem Class"
   url:
     - https://link.springer.com/chapter/10.1007/978-3-662-44303-3_12
@@ -18118,7 +18202,7 @@
   benchmark_quality:
     - named
 
-- id: 380
+- id: 382
   title: "Using indexed data structures for program specialization"
   url:
   source:
@@ -18160,7 +18244,7 @@
     - described
   doi: https://doi.org/10.1145/568173.568180
 
-- id: 381
+- id: 383
   title: "Value-sensitive automatic code specialization for embedded software"
   url:
     - https://ieeexplore.ieee.org/document/1028105/
@@ -18216,7 +18300,7 @@
     - described
   doi: https://doi.org/10.1109/TCAD.2002.801096
 
-- id: 382
+- id: 384
   title: "Vectorization techniques for prolog"
   url:
     - https://dl.acm.org/doi/10.1145/55364.55417
@@ -18255,7 +18339,7 @@
   benchmark_quality:
     - described
 
-- id: 383
+- id: 385
   title: "VISTA: VPO interactive system for tuning applications"
   url:
     - https://dl.acm.org/doi/10.1145/1196636.1196640
@@ -18304,7 +18388,7 @@
   benchmark_quality:
     - reused
 
-- id: 384
+- id: 386
   title: "WebJShrink: a web service for debloating Java bytecode"
   url:
     - https://dl.acm.org/doi/10.1145/3368089.3417934
