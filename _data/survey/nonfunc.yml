@@ -5013,7 +5013,7 @@
   benchmark_quality:
     - named
   author:
-    - Fran\ccois No\"el
+    - François Noël
     - Luke Hornof
     - Charles Consel
     - Julia L. Lawall
@@ -11379,7 +11379,7 @@
   author:
     - Jianbin Fang
     - Henk J. Sips
-    - Pekka J\"a\"askel\"ainen
+    - Pekka Jääskeläinen
     - Ana Lucia Varbanescu
   doi: https://doi.org/10.1109/ICPP.2014.25
 

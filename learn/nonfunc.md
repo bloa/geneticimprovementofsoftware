@@ -31,6 +31,10 @@ Clicking on data links in the table will query all similar entries.
   <label class="custom-control-label" for="flexSwitchCheckVenue">Venue</label>
 </div>
 <div class="custom-control custom-switch custom-control-inline">
+  <input class="custom-control-input" type="checkbox" role="switch" id="flexSwitchCheckAuthors" onclick="$('.hid25').toggle();cloneWidth();">
+  <label class="custom-control-label" for="flexSwitchCheckAuthors">Authors</label>
+</div>
+<div class="custom-control custom-switch custom-control-inline">
   <input class="custom-control-input" type="checkbox" role="switch" id="flexSwitchCheckFitness" onclick="$('.hid3').toggle();cloneWidth();">
   <label class="custom-control-label" for="flexSwitchCheckFitness">Fitness</label>
 </div>
@@ -55,12 +59,13 @@ Clicking on data links in the table will query all similar entries.
 <table id="survey" class="table table-responsive survey wrapper2" style="width: 100%; overflow: auto;">
   <thead>
     <tr>
-      <th>Links</th>
+      <th>Link</th>
       <th>Title</th>
       <th class="hid1">Source</th>
       <th class="hid2">Venue/Issue</th>
       <th class="hid2">Venue Type/Issue</th>
       <th class="hid2">Year</th>
+      <th class="hid25">Authors</th>
       <th class="hid3">Fitness (primary)</th>
       <th class="hid3">Fitness (secondary)</th>
       <th class="hid3">Fitness (multi-objective)</th>
@@ -74,13 +79,14 @@ Clicking on data links in the table will query all similar entries.
     </tr>
   </thead>
   <tbody class="div2">{% for entry in site.data.survey.nonfunc %}
-    <tr data-search="id={{ entry.id }}$ {{ entry.title | xml_escape }} {% for source in entry.source %}{{ source }} {% endfor %} venue={{ entry.venue }} venue_type={{ entry.venue_type }} year={{ entry.year }} {% for fitness in entry.fitness %}fitness={{ fitness }} {% endfor %} {% for fitness in entry.fitness_secondary %}fitness={{ fitness }} {% endfor %} {% if entry.fitness_multi %}fitness_multi={{ entry.fitness_multi }}{% else %}fitness_multi=False{% endif %}{% if entry.type %}type={{ entry.type }} {% endif %} {% for search in entry.tool_search %}search={{ search }} {% endfor %} {% for approach in entry.tool_approach %}approach={{ approach }} {% endfor %} {% for bench in entry.software_set_name %}benchmark_set={{ bench }} {% endfor %} {% for soft in entry.software_name %}benchmark={{ soft }} {% endfor %} {% for lang in entry.software_lang %}lang={{ lang }} {% endfor %} {% for size in entry.software_size %}size={{ size }} {% endfor %} {% for platform in entry.software_platform %}platform={{ platform }} {% endfor %}">
+    <tr data-search="id={{ entry.id }}$ {{ entry.title | xml_escape }} {% for source in entry.source %}{{ source }} {% endfor %} venue={{ entry.venue }} venue_type={{ entry.venue_type }} year={{ entry.year }} {% for author in entry.author %}author={{ author }} {% endfor %}{% for fitness in entry.fitness %}fitness={{ fitness }} {% endfor %}{% for fitness in entry.fitness_secondary %}fitness={{ fitness }} {% endfor %} {% if entry.fitness_multi %}fitness_multi={{ entry.fitness_multi }}{% else %}fitness_multi=False{% endif %}{% if entry.type %}type={{ entry.type }} {% endif %} {% for search in entry.tool_search %}search={{ search }} {% endfor %} {% for approach in entry.tool_approach %}approach={{ approach }} {% endfor %} {% for bench in entry.software_set_name %}benchmark_set={{ bench }} {% endfor %} {% for soft in entry.software_name %}benchmark={{ soft }} {% endfor %} {% for lang in entry.software_lang %}lang={{ lang }} {% endfor %} {% for size in entry.software_size %}size={{ size }} {% endfor %} {% for platform in entry.software_platform %}platform={{ platform }} {% endfor %}">
       <td>{% if entry.doi %}<a class="badge badge-primary" target="_blank" href="{{ entry.doi }}">DOI</a>{% endif %} {% for url in entry.pdfs %}<a class="badge badge-success" target="_blank" href="{{ url }}">PDF</a> {% endfor %} {% for url in entry.url %}<a class="badge badge-warning" target="_blank" href="{{ url }}">URL</a> {% endfor %}</td>
       <td title="{{ entry.id }}">{% if entry.title %}{{ entry.title }}{% if entry.subtitle %} &mdash; <i>{{ entry.subtitle }}</i>{% endif %}{% endif %} <a target="_blank" href="{{ site.baseurl }}/learn/survey2?q={{ entry.id }}$" class="perma"><i class="fa fa-link" style="font-size: 0.75rem" aria-hidden="true"></i></a></td>
       <td class="hid1">{% for source in entry.source %}{% if forloop.first == false %}, {% endif %}<a href="#search" class="slink text-nowrap" onclick="force('&quot;{{ source }}&quot;')">{{ source }}</a>{% endfor %}</td>
       <td class="hid2"><a href="#search" class="slink" onclick="force('venue=&quot;{{ entry.venue }}&quot;')">{{ entry.venue }}</a></td>
       <td class="hid2"><a href="#search" class="slink" onclick="force('venue_type=&quot;{{ entry.venue_type }}&quot;')">{{ entry.venue_type }}</a></td>
       <td class="hid2">{% if entry.year %}<a href="#search" class="slink text-nowrap" onclick="force('year=&quot;{{ entry.year }}&quot;')">{{ entry.year }}</a>{% endif %}</td>
+      <td class="hid25">{% for author in entry.author %}{% if forloop.first == false %}{% if forloop.last %}{% if forloop.index > 2 %},{% endif %} and {% else %}, {% endif %}{% endif %}<a href="#search" class="slink text-nowrap" onclick="force('author=&quot;{{ author }}&quot;')">{{ author }}</a>{% endfor %}</td>
       <td class="hid3">{% for fitness in entry.fitness %}<a href="#search" class="slink text-nowrap" onclick="force('fitness={{ fitness }}')">#{{ fitness }}</a> {% endfor %}</td>
       <td class="hid3">{% for fitness in entry.fitness_secondary %}<a href="#search" class="slink text-nowrap" onclick="force('fitness={{ fitness }}')">#{{ fitness }}</a> {% endfor %}</td>
       <td class="hid3">{% if entry.fitness_multi %}<a href="#search" class="slink text-nowrap" onclick="force('fitness_multi={{ entry.fitness_multi }}')">#{{ entry.fitness_multi }}</a>{% endif %}</td>
@@ -178,6 +184,7 @@ if (query) {
   force(query)
 }
 
+$('.hid25').toggle();
 $('.hid3').toggle();
 $('.hid4').toggle();
 $('.hid5').toggle();
